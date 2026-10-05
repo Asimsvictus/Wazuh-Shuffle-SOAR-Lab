@@ -1,0 +1,9 @@
+<!-- Add inside <ossec_config> in /var/ossec/etc/ossec.conf on the Wazuh manager.
+     Replace <SHUFFLE_IP> and <WEBHOOK_ID> with the values from your Shuffle webhook trigger.
+     Keep every tag closed: a missing </hook_url> makes the file invalid XML and the manager will not start. -->
+<integration>
+  <name>shuffle</name>
+  <hook_url>http://<SHUFFLE_IP>:3001/api/v1/hooks/webhook_<WEBHOOK_ID></hook_url>
+  <level>6</level>
+  <alert_format>json</alert_format>
+</integration>

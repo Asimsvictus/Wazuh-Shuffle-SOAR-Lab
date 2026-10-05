@@ -1,0 +1,1 @@
+{"content": "Wazuh Alert\nRule: $exec.rule_id\nSeverity: $exec.severity\nTitle: $exec.title\nTime: $exec.timestamp"}
