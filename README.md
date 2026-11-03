@@ -1,5 +1,7 @@
 # Wazuh + Shuffle SOAR Lab: Detection to Automated Alerting
 
+**Next phase:** [Wazuh-Shuffle-TheHive-SOC-Lab](https://github.com/Asimsvictus/Wazuh-Shuffle-TheHive-SOC-Lab) adds TheHive case management.
+
 A home lab that connects a **Wazuh SIEM** to the **Shuffle SOAR** platform. An SSH brute-force attack is detected by Wazuh, mapped to MITRE ATT&CK,
 forwarded to Shuffle through a webhook, and turned into a Discord notification by an automated workflow.
 
